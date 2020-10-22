@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+/*-------------------------Global starts--------------------------*/
+.container{
+  width: 86%;
+  margin: auto;
+}
+
+.common__h2{
+  font-size: 40px;
+  color: #072366;
+  font-family: 'Raleway', sans-serif;
+  padding: 30px 0 50px 0;
+}
+
+.common__btn{
+  color: #6785FF;
+  background-color: rgba(103,133,255,0.1);
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 17px;
+
+}
+
+/*-------------------------Global ends--------------------------*/
+
+/*-------------------------Header starts here----------------------*/
+.header__section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.header__section #logo {
+  padding-left: 50px;
+  padding-right: 61px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.header__section .ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.header__section .ul li a:hover,
+.header__section .ul li a:active {
+  color: #6785ff;
+  transition: color 0.1s ease-in;
+}
+
+.header__section .ul li a:active,
+.header__section .ul li a:visited {
+  border-bottom: 3px solid #6785ff;
+}
+
+.header__section .ul li a {
+  text-decoration: none;
+  color: #0d2d3e;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-right: 46px;
+}
+
+.header__section .ul .blog {
+  position: relative;
+  
+}
+
+.header__section .blog__list {
+  position: absolute;
+  background: rgba(103,133,255,0.8);
+  width: 178%;
+  display: none;
+  transition: 0.5s;
+}
+
+.header__section .blog__list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  padding: 8px 15px;
+  font-size: 15px;
+}
+
+.header__section .blog__list a:hover {
+  animation: mymove 0.5s infinite;
+  position: relative;
+  animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 3px;}
+}
+
+.header__section .blog:hover .blog__list{
+  display: block;
+}
+
+.header__section .calling__logo {
+  padding-left: 147px;
+  padding-right: 12px;
+  margin-right: 12px;
+  border-right: 2px solid #eee;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.header__section .btn__1 {
+  color: #6785ff;
+  font-size: 19px;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  padding-right: 22px;
+  font-weight: 700;
+}
+
+.header__section .btn__2 {
+  text-decoration: none;
+  background: #6785ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 35px 24px;
+  transition: 1s ease-in-out;
+}
+/*-------------------------Header ends here----------------------*/
+
+/*----------------Section1 starts here-----------*/
+section {
+  background-image: url('../images/hero2.png');
+  background-size: cover;
+  height: 70vh;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+
+section .main__heading {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  padding-top: 150px;
+}
+/*----------------Section1 ends here---------------*/
+
+/*----------------Section2 starts here-----------*/
+
+.section2 {
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 60px;
+}
+
+.section2 .grid {
+  display: flex;
+}
+
+.section2 .grid h3 a{
+  text-decoration: none;
+  font-size: 24px;
+  color: #1c165c;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.section2 .grid h3 {
+  padding: 28px 0;
+
+}
+
+.section2 .grid p {
+  color: #57667e;
+  line-height: 2rem;
+  
+}
+/*----------------Section2 ends here---------------*/
+
+/*----------------Section3 starts here-----------*/
+.section3 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+/*----------------Section3 ends here-----------*/
+
+/*----------------Section4 starts here-----------*/
+
+.section4 {
+  margin-bottom: 60px;
+}
+
+.section4a, .section4b {
+  display: flex;
+}
+
+.section4__a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin: 30px 0px;
+  display: block;
+}
+
+.section4__para {
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  line-height: 2rem;
+}
+
+.section4 .offer2{
+  position: relative;
+}
+
+.section4 .offer2__text{
+  position: absolute;
+  top: 28%;
+  padding: 0 112px;
+  text-align: center;
+}
+
+/*----------------Section4 ends here-----------*/
+
+/*----------------Section5 starts here-----------*/
+
+.section5 {
+  position: relative;
+  margin-bottom: 116px;
+}
+
+.section5 h2 {
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section5 p {
+  font-size: 18px;
+  line-height: 3.5rem;
+}
+
+.section5 .bubble__content {
+  position: absolute;
+  display: flex;
+  top: 34%;
+  color: #fff;
+  align-items: center;
+}
+
+.section5 .bubble__text{
+  padding-left: 28px;
+  margin-right: 320px;
+}
+
+.section5 .bubble__link {
+  text-decoration: none;
+  padding: 20px 46px;
+  background-color: #5172f5;
+  border-radius: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.section5 .bubble__link img{
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+/*----------------Section5 ends here-----------*/
+
+/*---------------------------------------Section6 starts here----------------------------------------*/
+
+.section6 {
+  text-align: center;
+  width: 42%;
+  padding-bottom: 110px;
+}
+.section6 .section6__para {
+  color:#1D2547;
+  font-size: 18px;
+  padding-bottom: 18px;
+  line-height: 2rem;
+}
+
+.section6 .star i{
+  color: #FBBA42;
+  font-size: 18px;
+}
+
+.section6__map {
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+
+/*---------------------------------------Section6 ends here----------------------------------------*/
+
+/*---------------------------------------Section7 starts here----------------------------------------*/
+.section7 {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.section7 .section7a__img {
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.section7 .section7__h2 {
+  font-size: 24px;
+  color: #1D2547;
+  padding-bottom: 40px;
+}
+
+.section7 .paraaaa {
+  color: #646D77;
+  font-size: 14px;
+  line-height: 1.5rem;
+  width: 140%;
+  margin-bottom: 62px;
+
+}
+
+.section7 a {
+  color: #646D77;
+  font-size: 14px;
+  line-height: 2.5rem;
+  text-decoration: none;
+}
+
+.section7 a:hover,
+.section7 a:active {
+  color: #6785FF;
+}
+
+.section7 .section7a {
+  flex: 1;
+  margin-right: 270px;
+}
+
+.fa-twitter {
+  margin-right: 14px;
+  color: #6785FF;
+  border-radius: 30px;
+  padding: 12px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.fa-facebook {
+  margin-right: 14px;
+  color: #6785FF;
+  border-radius: 20px;
+  padding: 12px 15px;
+  background-color: #eee;
+  cursor: pointer;
+
+}
+
+.fa-pinterest-p {
+  color: #6785FF;
+  border-radius: 30px;
+  padding: 12px 14px;
+  background-color: #eee;
+  cursor: pointer;
+
+}
+
+.fa-twitter:hover,
+.fa-twitter:active {
+  color: #fff;
+  background-color: #6785FF;
+  transition: color 0.2s ease-out;
+
+}
+
+.fa-facebook:hover,
+.fa-facebook:active {
+  color: #fff;
+  background-color: #6785FF;
+  transition: color 0.2s ease-out;
+
+}
+
+.fa-pinterest-p:hover,
+.fa-pinterest-p:active {
+  color: #fff;
+  background-color: #6785FF;
+  transition: color 0.2s ease-out;
+
+}
+
+.section7 .section7b {
+  flex: 1;
+  margin-right: 200px;
+}
+
+.section7 .section7c {
+  flex: 1;
+}
+
+.section7 .section7__h3 {
+  color: #6785FF;
+  font-size: 24px;
+  padding-bottom: 20px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+/*---------------------------------------Section7 ends here----------------------------------------*/
+
+/*---------------------------------------Section8 starts here----------------------------------------*/
+
+.section8 .section8__img {
+  transform: scale(1.15);
+}
+
+.section8 {
+  position: relative;
+
+}
+
+.section8 .section8__content {
+  position: absolute;
+  top: 60%;
+  margin-left: 30%;
+}
+
+.section8 .section8__link {
+  text-decoration: none;
+  color: #6785FF;
+}
+
+.section8 span{
+  color: #1D2547;
+
+}
+
+.level__up i{
+  cursor: pointer;
+  font-size: 26px;
+  background: #6785FF;
+  border-radius: 100px;
+  color: #fff;
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  padding-top: 14px;
+  position: fixed;
+  right: 31px;
+  bottom: 18px;
+}
+
+
+
+/*---------------------------------------Section8 ends here----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
